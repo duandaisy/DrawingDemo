@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  iosDrawDemo
+//
+//  Created by daisy on 2020/1/4.
+//  Copyright © 2020 daisyduan.com. All rights reserved.
+//
+
+#import "ColorMacroDef.h"           //颜色宏定义
+#import "SizeMacorDef.h"            //苹果尺寸宏定义
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define XCTTEST //测试功能开关
+
+#endif /* PrefixHeader_pch */

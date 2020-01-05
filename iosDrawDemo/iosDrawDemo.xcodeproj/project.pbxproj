@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AB0ECF7D23BF576F00DE8E2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0ECF7C23BF576F00DE8E2C /* AppDelegate.m */; };
-		AB0ECF8023BF576F00DE8E2C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0ECF7F23BF576F00DE8E2C /* SceneDelegate.m */; };
 		AB0ECF8323BF576F00DE8E2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0ECF8223BF576F00DE8E2C /* ViewController.m */; };
 		AB0ECF8623BF576F00DE8E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0ECF8423BF576F00DE8E2C /* Main.storyboard */; };
 		AB0ECF8823BF577200DE8E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0ECF8723BF577200DE8E2C /* Assets.xcassets */; };
 		AB0ECF8B23BF577200DE8E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0ECF8923BF577200DE8E2C /* LaunchScreen.storyboard */; };
 		AB0ECF8E23BF577200DE8E2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0ECF8D23BF577200DE8E2C /* main.m */; };
+		AB0ECF9A23C03DB000DE8E2C /* Quartz2DDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0ECF9923C03DB000DE8E2C /* Quartz2DDemo.m */; };
+		AB0ECF9D23C03DEB00DE8E2C /* CoreGraphicDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0ECF9C23C03DEB00DE8E2C /* CoreGraphicDemo.m */; };
+		AB0ECFA123C044CD00DE8E2C /* LDLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0ECFA023C044CD00DE8E2C /* LDLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB0ECF7823BF576F00DE8E2C /* iosDrawDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosDrawDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0ECF7B23BF576F00DE8E2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB0ECF7C23BF576F00DE8E2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB0ECF7E23BF576F00DE8E2C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		AB0ECF7F23BF576F00DE8E2C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		AB0ECF8123BF576F00DE8E2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AB0ECF8223BF576F00DE8E2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB0ECF8523BF576F00DE8E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +29,15 @@
 		AB0ECF8A23BF577200DE8E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB0ECF8C23BF577200DE8E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB0ECF8D23BF577200DE8E2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB0ECF9423C0366300DE8E2C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AB0ECF9523C036D200DE8E2C /* ColorMacroDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacroDef.h; sourceTree = "<group>"; };
+		AB0ECF9623C036FF00DE8E2C /* SizeMacorDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SizeMacorDef.h; sourceTree = "<group>"; };
+		AB0ECF9823C03DB000DE8E2C /* Quartz2DDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quartz2DDemo.h; sourceTree = "<group>"; };
+		AB0ECF9923C03DB000DE8E2C /* Quartz2DDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DDemo.m; sourceTree = "<group>"; };
+		AB0ECF9B23C03DEB00DE8E2C /* CoreGraphicDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicDemo.h; sourceTree = "<group>"; };
+		AB0ECF9C23C03DEB00DE8E2C /* CoreGraphicDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicDemo.m; sourceTree = "<group>"; };
+		AB0ECF9F23C044CD00DE8E2C /* LDLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDLineView.h; sourceTree = "<group>"; };
+		AB0ECFA023C044CD00DE8E2C /* LDLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +70,9 @@
 		AB0ECF7A23BF576F00DE8E2C /* iosDrawDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AB0ECF9723C03D7500DE8E2C /* 简单绘图 */,
 				AB0ECF7B23BF576F00DE8E2C /* AppDelegate.h */,
 				AB0ECF7C23BF576F00DE8E2C /* AppDelegate.m */,
-				AB0ECF7E23BF576F00DE8E2C /* SceneDelegate.h */,
-				AB0ECF7F23BF576F00DE8E2C /* SceneDelegate.m */,
 				AB0ECF8123BF576F00DE8E2C /* ViewController.h */,
 				AB0ECF8223BF576F00DE8E2C /* ViewController.m */,
 				AB0ECF8423BF576F00DE8E2C /* Main.storyboard */,
@@ -72,8 +80,32 @@
 				AB0ECF8923BF577200DE8E2C /* LaunchScreen.storyboard */,
 				AB0ECF8C23BF577200DE8E2C /* Info.plist */,
 				AB0ECF8D23BF577200DE8E2C /* main.m */,
+				AB0ECF9423C0366300DE8E2C /* PrefixHeader.pch */,
+				AB0ECF9523C036D200DE8E2C /* ColorMacroDef.h */,
+				AB0ECF9623C036FF00DE8E2C /* SizeMacorDef.h */,
 			);
 			path = iosDrawDemo;
+			sourceTree = "<group>";
+		};
+		AB0ECF9723C03D7500DE8E2C /* 简单绘图 */ = {
+			isa = PBXGroup;
+			children = (
+				AB0ECF9E23C0449F00DE8E2C /* customView */,
+				AB0ECF9823C03DB000DE8E2C /* Quartz2DDemo.h */,
+				AB0ECF9923C03DB000DE8E2C /* Quartz2DDemo.m */,
+				AB0ECF9B23C03DEB00DE8E2C /* CoreGraphicDemo.h */,
+				AB0ECF9C23C03DEB00DE8E2C /* CoreGraphicDemo.m */,
+			);
+			path = "简单绘图";
+			sourceTree = "<group>";
+		};
+		AB0ECF9E23C0449F00DE8E2C /* customView */ = {
+			isa = PBXGroup;
+			children = (
+				AB0ECF9F23C044CD00DE8E2C /* LDLineView.h */,
+				AB0ECFA023C044CD00DE8E2C /* LDLineView.m */,
+			);
+			path = customView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0ECF9D23C03DEB00DE8E2C /* CoreGraphicDemo.m in Sources */,
 				AB0ECF8323BF576F00DE8E2C /* ViewController.m in Sources */,
+				AB0ECFA123C044CD00DE8E2C /* LDLineView.m in Sources */,
 				AB0ECF7D23BF576F00DE8E2C /* AppDelegate.m in Sources */,
+				AB0ECF9A23C03DB000DE8E2C /* Quartz2DDemo.m in Sources */,
 				AB0ECF8E23BF577200DE8E2C /* main.m in Sources */,
-				AB0ECF8023BF576F00DE8E2C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +325,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8F4643F8S;
+				GCC_PREFIX_HEADER = iosDrawDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = iosDrawDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8F4643F8S;
+				GCC_PREFIX_HEADER = iosDrawDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = iosDrawDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
